@@ -20,6 +20,10 @@ public class App {
 				toString += "\", ";
 			}
 			
+			if (i == variables.size() - 1) {
+				toString += "\"";
+			}
+			
 			toString += variables.get(i) + "=\" + " + variables.get(i) + " + ";
 		}
 		
