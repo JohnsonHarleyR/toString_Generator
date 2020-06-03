@@ -11,7 +11,7 @@ public class App {
 		
 		for (int i = 0; i < variables.size(); i++) {
 			//next line after so many variables
-			if ((i != 0) &&  (i == 2 || i % 2 != 1)) {
+			if ((i != 0) &&  (i == 3 || i % 3 != 1)) {
 				toString += "\n\t\t";
 			}
 			
