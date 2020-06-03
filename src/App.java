@@ -9,9 +9,8 @@ public class App {
 		String toString = "@Override\n" + "public String toString() {\n" +
 		"\treturn \"" + className + " [";
 		
-		//2, 4, 8, 11
 		for (int i = 0; i < variables.size(); i++) {
-			//next line after so many variable
+			//next line after so many variables
 			if ((i != 0) &&  (i == 2 || i % 2 != 1)) {
 				toString += "\n\t\t";
 			}
